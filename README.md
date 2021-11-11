@@ -45,22 +45,18 @@ This code is used to test the session6.py code
 |function|test_readme_file_for_formatting|-|-|Check for formatting in README.md file |-|
 |function|test_indentations|-|-|Check for misplaced indentations |-|
 |function|test_function_name_had_cap_letter|-|-|Check for upper case characters in function names |-|
-
 |function|test_docstring_check_no_docstring|-|-|Check for absence of docstring in a function|-|
 |function|test_docstring_check_complex|-|-|Check if function name passed is a complex number instead of a proper function|-|
 |function|test_docstring_check_less_docstring|-|-|Check if docstring contains less than 50 characters|-|
 |function|test_docstring_check_correct_docstring|-|-|Check if function validation is able to detect presence of correct length of docstring|-|
 |function|test_docstring_non_function|-|-|Check if function passed is not a valid callable function name|-|
-
 |function|test_fibonacci_gen_arg_outer_func|-|-|Check if outer function can flag out when argument is passed|-|
 |function|test_fibonacci_gen_arg_inner_func|-|-|Check if inner function can flag out when argument is passed|-|
 |function|test_fibonacci_gen_accuracy|-|-|Check for correct fibonacci logic implementation |-|
-
 |function|add|-|-|Custom function for addition of 2 numbers|-|
 |function|mul|-|-|Custom function for multiplication of 2 numbers |-|
 |function|div|-|-|Custom function for division of 2 numbers |-|
 |function|sqr|-|-|Custom function for square value of a number |-|
-
 |function|test_func_tracker_check_add|-|-|Check if func_tracker function can accurately add 2 numbers |-|
 |function|test_func_tracker_check_mul|-|-|Check if func_tracker function can accurately multiply 2 numbers  |-|
 |function|test_func_tracker_check_div|-|-|Check if func_tracker function can accurately divide 2 numbers  |-|
@@ -68,7 +64,6 @@ This code is used to test the session6.py code
 |function|test_func_tracker_non_function|-|-|Check if func_tracker is able to correctly identify non-callable function being passed |-|
 |function|test_func_tracker_outer_func|-|-|Check if func_tracker can correctly flag out 2 functions being passed to outer function at same time |-|
 |function|test_func_tracker_inner_func|-|-|Check if func_tracker can correctly flag out more than 2 arguments being passed to inner function at same time|-|
-
 |function|test_func_tracker_update_non_function|-|-|Check if func_tracker_update is able to correctly identify non-callable function being passed|-|
 |function|test_func_tracker_update_check_add|-|-|Check if func_tracker_update function can accurately add 2 numbers |-|
 |function|test_func_tracker_update_check_mul|-|-|Check if func_tracker_update function can accurately multiply 2 numbers|-|
