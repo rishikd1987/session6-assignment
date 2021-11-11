@@ -93,6 +93,13 @@ def test_fibonacci_gen_arg_outer_func():
     with pytest.raises(TypeError, match=r".*takes 0 positional arguments*"):
         session6.func_next_fibonacci(123)
 
+def test_fibonacci_gen_initial_conditions():
+    fib = session6.func_next_fibonacci()
+    assert fib() == 0, "Something is wrong with the fibonacci function."
+    assert fib() == 1, "Something is wrong with the fibonacci function."
+    assert fib() == 1, "Something is wrong with the fibonacci function."
+    assert fib() == 2, "Something is wrong with the fibonacci function."
+
 def test_fibonacci_gen_arg_inner_func():
     with pytest.raises(TypeError, match=r".*takes 0 positional arguments*"):
         s = session6.func_next_fibonacci()

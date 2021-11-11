@@ -51,6 +51,7 @@ This code is used to test the session6.py code
 |function|test_docstring_check_correct_docstring|-|-|Check if function validation is able to detect presence of correct length of docstring|-|
 |function|test_docstring_non_function|-|-|Check if function passed is not a valid callable function name|-|
 |function|test_fibonacci_gen_arg_outer_func|-|-|Check if outer function can flag out when argument is passed|-|
+|function|test_fibonacci_gen_initial_conditions|-|-|Geeric check if the first 4 fibonacci numbers are printed correctly|-|
 |function|test_fibonacci_gen_arg_inner_func|-|-|Check if inner function can flag out when argument is passed|-|
 |function|test_fibonacci_gen_accuracy|-|-|Check for correct fibonacci logic implementation |-|
 |function|add|-|-|Custom function for addition of 2 numbers|-|
