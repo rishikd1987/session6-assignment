@@ -15,7 +15,7 @@ def func_docstring_check(func):
     if func.__doc__ is None:
         raise ValueError(f"Function '{func.__name__}' does not have any docstring")
     def innercheck_docstring():
-        nonlocal func
+        nonlocal func,docstring_count
         #check docstring
         length_doc_str = len(func.__doc__.replace("\n","").replace(" ",""))
         if length_doc_str < docstring_count:
